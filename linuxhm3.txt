@@ -1,0 +1,5 @@
+   0 > /tmp/test.txt
+   1 cp /etc/group /tmp/test.txt
+   2 vi /tmp/test.txt 
+   3 cat /tmp/test.txt 
+   4 history > linuxhm3.txt
