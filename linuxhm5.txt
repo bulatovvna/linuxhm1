@@ -1,0 +1,7 @@
+   0 nano myfirstbashscript.sh
+   1 chmod 744 myfirstbashscript.sh 
+   2 ls -l
+   3 export USER=Gyuzal
+   4 env
+   5 ./myfirstbashscript.sh 
+   6 history > linuxhm5.txt
