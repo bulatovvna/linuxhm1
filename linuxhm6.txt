@@ -1,0 +1,5 @@
+   0 nano script.sh
+   1 chmod 744 script.sh 
+   2 ls
+   3 ./script.sh 
+   4 history > linuxhm6.txt
