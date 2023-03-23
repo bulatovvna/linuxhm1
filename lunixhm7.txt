@@ -1,0 +1,33 @@
+#!/bin/bash
+
+echo "Hello Student!"
+
+echo "Enter your name please"
+read name
+echo "Welcome to terminal $name"
+
+mkdir /tmp/test
+
+date +%H:%M:%S > /tmp/mydate.txt
+
+echo "Сохраняем данные"
+
+for RUN in {1..10}
+do
+sleep .5
+done
+
+echo "Data saved. continue work"
+
+df -h >> /tmp/mydate.txt
+
+mkdir /opt/mydate
+
+cp /tmp/mydate.txt /opt/mydate/newmydate.txt
+
+for RUN in {1..5}
+do 
+sleep 1
+done
+
+echo "Well done Boss"
